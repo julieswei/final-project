@@ -1,0 +1,10 @@
+# Houdini automatic backups
+backup/
+
+# Houdini temporary files
+*.hipnc~
+*.hip~
+*.swp
+
+# Houdini crash files
+crash.*
