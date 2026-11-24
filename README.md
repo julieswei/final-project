@@ -41,8 +41,31 @@ For video documentation of MS1: https://vimeo.com/1245700571/6d7ae986f6?share=co
 
 
 
+## Milestone #2 (at time of 11/23 midnight):
+
+For this milestone, I focused on adding procedural vegetation to the castle. I created and refined the bush generation system by introducing variations in leaf size, bush shape, color, and rotation, as well as filtering points based on surface normals, proximity to houses, height, and whether they are inside existing geometry.
+
+I also worked on two types of procedural ivy: wild ivy that grows outward from the castle body (droops with gravity, has some noise) and climbing ivy (still in progress) that grows around structures and sides of structures. I implemented a raycasting-based occlusion system to identify crevices and sheltered areas between houses as potential ivy growth locations. Tower ivy to be determined, still.
+
+I spent more time than anticipated refining the vegetation systems (had some nasty debugging things), so I decided to postpone the additional mechanical details and final lighting until the next milestone. I will cut back on the "thingamajigs" I was planning on adding to maybe 1-3 systems, then focus on materials, lighting, and rendering the final image/turn table.
 
 
+PROGRESS IMAGES BELOW: 
+In order: Basic bushes (randomness and placement near houses), refining bush shapes and color, starting to add ivy. 
+
+<img src="Progress/7_1.png" width="550">
+
+<img src="Progress/7_2.png" width="550">
+
+<img src="Progress/7_3.png" width="550">
+
+<img src="Progress/7_4.png" width="550">
+
+<img src="Progress/7_5.png" width="550">
+
+<img src="Progress/7_6.png" width="550">
+
+<img src="Progress/7_7.png" width="550">
 
 # Design Doc
 
